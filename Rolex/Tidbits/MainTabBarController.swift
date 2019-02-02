@@ -3,7 +3,7 @@
 //  Rolex
 //
 //  Created by J J Feddock on 1/10/19.
-//  Copyright © 2019 HF Corporation. All rights reserved.
+//  Copyright © 2019 JF Corporation. All rights reserved.
 //
 
 import UIKit

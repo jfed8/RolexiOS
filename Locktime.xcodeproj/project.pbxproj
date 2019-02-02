@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91153B5321F98B1A004E8C2E /* UsefulTidbits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91153B5221F98B1A004E8C2E /* UsefulTidbits.swift */; };
+		91153B5521FAAFA1004E8C2E /* LTGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91153B5421FAAFA1004E8C2E /* LTGroup.swift */; };
 		918F312521E811F100BC121A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918F312421E811F100BC121A /* AppDelegate.swift */; };
 		918F312721E811F100BC121A /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918F312621E811F100BC121A /* RewardsViewController.swift */; };
 		918F312921E811F100BC121A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918F312821E811F100BC121A /* TimerViewController.swift */; };
@@ -19,7 +21,7 @@
 		918F315821E85A4C00BC121A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918F315721E85A4C00BC121A /* MainTabBarController.swift */; };
 		918F315A21F52EFF00BC121A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918F315921F52EFF00BC121A /* SignupViewController.swift */; };
 		918F315E21F545CA00BC121A /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918F315D21F545CA00BC121A /* SigninViewController.swift */; };
-		91D3AAAC21F54B59000201BB /* CustomUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D3AAAB21F54B59000201BB /* CustomUser.swift */; };
+		91D3AAAC21F54B59000201BB /* LTUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D3AAAB21F54B59000201BB /* LTUser.swift */; };
 		91D3AAAE21F56254000201BB /* RewardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D3AAAD21F56254000201BB /* RewardTableViewCell.swift */; };
 		A6A46DF8FC673D2FA1E4DF17 /* Pods_Rolex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6D827DFA906D48B9829CF2C /* Pods_Rolex.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		0B7AC20BE06B0A875A88D818 /* Pods-Rolex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rolex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rolex/Pods-Rolex.debug.xcconfig"; sourceTree = "<group>"; };
+		91153B5221F98B1A004E8C2E /* UsefulTidbits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsefulTidbits.swift; sourceTree = "<group>"; };
+		91153B5421FAAFA1004E8C2E /* LTGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTGroup.swift; sourceTree = "<group>"; };
 		918F312121E811F100BC121A /* LockTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		918F312421E811F100BC121A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		918F312621E811F100BC121A /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
@@ -51,17 +55,17 @@
 		918F312D21E811F500BC121A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		918F313021E811F500BC121A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		918F313221E811F500BC121A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		918F313721E811F500BC121A /* RolexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918F313721E811F500BC121A /* LocktimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocktimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918F313B21E811F500BC121A /* RolexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolexTests.swift; sourceTree = "<group>"; };
 		918F313D21E811F500BC121A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		918F314221E811F500BC121A /* RolexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		918F314221E811F500BC121A /* LocktimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocktimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		918F314621E811F500BC121A /* RolexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolexUITests.swift; sourceTree = "<group>"; };
 		918F314821E811F500BC121A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		918F315421E812F300BC121A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		918F315721E85A4C00BC121A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		918F315921F52EFF00BC121A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		918F315D21F545CA00BC121A /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewController.swift; sourceTree = "<group>"; };
-		91D3AAAB21F54B59000201BB /* CustomUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUser.swift; sourceTree = "<group>"; };
+		91D3AAAB21F54B59000201BB /* LTUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTUser.swift; sourceTree = "<group>"; };
 		91D3AAAD21F56254000201BB /* RewardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardTableViewCell.swift; sourceTree = "<group>"; };
 		B6D827DFA906D48B9829CF2C /* Pods_Rolex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rolex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8A4094E669A623F789C88A /* Pods-Rolex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rolex.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rolex/Pods-Rolex.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,8 +130,8 @@
 			isa = PBXGroup;
 			children = (
 				918F312121E811F100BC121A /* LockTime.app */,
-				918F313721E811F500BC121A /* RolexTests.xctest */,
-				918F314221E811F500BC121A /* RolexUITests.xctest */,
+				918F313721E811F500BC121A /* LocktimeTests.xctest */,
+				918F314221E811F500BC121A /* LocktimeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,7 +184,8 @@
 		91D3AAAA21F54B18000201BB /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				91D3AAAB21F54B59000201BB /* CustomUser.swift */,
+				91D3AAAB21F54B59000201BB /* LTUser.swift */,
+				91153B5421FAAFA1004E8C2E /* LTGroup.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 			children = (
 				918F315721E85A4C00BC121A /* MainTabBarController.swift */,
 				91D3AAAD21F56254000201BB /* RewardTableViewCell.swift */,
+				91153B5221F98B1A004E8C2E /* UsefulTidbits.swift */,
 			);
 			path = Tidbits;
 			sourceTree = "<group>";
@@ -197,9 +203,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		918F312021E811F100BC121A /* Rolex */ = {
+		918F312021E811F100BC121A /* Locktime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 918F314B21E811F500BC121A /* Build configuration list for PBXNativeTarget "Rolex" */;
+			buildConfigurationList = 918F314B21E811F500BC121A /* Build configuration list for PBXNativeTarget "Locktime" */;
 			buildPhases = (
 				D4519E80BBF5FD40AAF84822 /* [CP] Check Pods Manifest.lock */,
 				918F311D21E811F100BC121A /* Sources */,
@@ -211,14 +217,14 @@
 			);
 			dependencies = (
 			);
-			name = Rolex;
+			name = Locktime;
 			productName = Rolex;
 			productReference = 918F312121E811F100BC121A /* LockTime.app */;
 			productType = "com.apple.product-type.application";
 		};
-		918F313621E811F500BC121A /* RolexTests */ = {
+		918F313621E811F500BC121A /* LocktimeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 918F314E21E811F500BC121A /* Build configuration list for PBXNativeTarget "RolexTests" */;
+			buildConfigurationList = 918F314E21E811F500BC121A /* Build configuration list for PBXNativeTarget "LocktimeTests" */;
 			buildPhases = (
 				918F313321E811F500BC121A /* Sources */,
 				918F313421E811F500BC121A /* Frameworks */,
@@ -229,14 +235,14 @@
 			dependencies = (
 				918F313921E811F500BC121A /* PBXTargetDependency */,
 			);
-			name = RolexTests;
+			name = LocktimeTests;
 			productName = RolexTests;
-			productReference = 918F313721E811F500BC121A /* RolexTests.xctest */;
+			productReference = 918F313721E811F500BC121A /* LocktimeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		918F314121E811F500BC121A /* RolexUITests */ = {
+		918F314121E811F500BC121A /* LocktimeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 918F315121E811F500BC121A /* Build configuration list for PBXNativeTarget "RolexUITests" */;
+			buildConfigurationList = 918F315121E811F500BC121A /* Build configuration list for PBXNativeTarget "LocktimeUITests" */;
 			buildPhases = (
 				918F313E21E811F500BC121A /* Sources */,
 				918F313F21E811F500BC121A /* Frameworks */,
@@ -247,9 +253,9 @@
 			dependencies = (
 				918F314421E811F500BC121A /* PBXTargetDependency */,
 			);
-			name = RolexUITests;
+			name = LocktimeUITests;
 			productName = RolexUITests;
-			productReference = 918F314221E811F500BC121A /* RolexUITests.xctest */;
+			productReference = 918F314221E811F500BC121A /* LocktimeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -275,7 +281,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 918F311C21E811F100BC121A /* Build configuration list for PBXProject "Rolex" */;
+			buildConfigurationList = 918F311C21E811F100BC121A /* Build configuration list for PBXProject "Locktime" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -288,9 +294,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				918F312021E811F100BC121A /* Rolex */,
-				918F313621E811F500BC121A /* RolexTests */,
-				918F314121E811F500BC121A /* RolexUITests */,
+				918F312021E811F100BC121A /* Locktime */,
+				918F313621E811F500BC121A /* LocktimeTests */,
+				918F314121E811F500BC121A /* LocktimeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -381,10 +387,12 @@
 				918F312921E811F100BC121A /* TimerViewController.swift in Sources */,
 				918F312521E811F100BC121A /* AppDelegate.swift in Sources */,
 				918F315821E85A4C00BC121A /* MainTabBarController.swift in Sources */,
-				91D3AAAC21F54B59000201BB /* CustomUser.swift in Sources */,
+				91D3AAAC21F54B59000201BB /* LTUser.swift in Sources */,
 				918F315521E812F300BC121A /* ProfileViewController.swift in Sources */,
 				91D3AAAE21F56254000201BB /* RewardTableViewCell.swift in Sources */,
 				918F312721E811F100BC121A /* RewardsViewController.swift in Sources */,
+				91153B5321F98B1A004E8C2E /* UsefulTidbits.swift in Sources */,
+				91153B5521FAAFA1004E8C2E /* LTGroup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,12 +417,12 @@
 /* Begin PBXTargetDependency section */
 		918F313921E811F500BC121A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 918F312021E811F100BC121A /* Rolex */;
+			target = 918F312021E811F100BC121A /* Locktime */;
 			targetProxy = 918F313821E811F500BC121A /* PBXContainerItemProxy */;
 		};
 		918F314421E811F500BC121A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 918F312021E811F100BC121A /* Rolex */;
+			target = 918F312021E811F100BC121A /* Locktime */;
 			targetProxy = 918F314321E811F500BC121A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -612,7 +620,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rolex.app/Rolex";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locktime.app/Locktime";
 			};
 			name = Debug;
 		};
@@ -633,7 +641,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rolex.app/Rolex";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locktime.app/Locktime";
 			};
 			name = Release;
 		};
@@ -680,7 +688,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		918F311C21E811F100BC121A /* Build configuration list for PBXProject "Rolex" */ = {
+		918F311C21E811F100BC121A /* Build configuration list for PBXProject "Locktime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				918F314921E811F500BC121A /* Debug */,
@@ -689,7 +697,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		918F314B21E811F500BC121A /* Build configuration list for PBXNativeTarget "Rolex" */ = {
+		918F314B21E811F500BC121A /* Build configuration list for PBXNativeTarget "Locktime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				918F314C21E811F500BC121A /* Debug */,
@@ -698,7 +706,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		918F314E21E811F500BC121A /* Build configuration list for PBXNativeTarget "RolexTests" */ = {
+		918F314E21E811F500BC121A /* Build configuration list for PBXNativeTarget "LocktimeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				918F314F21E811F500BC121A /* Debug */,
@@ -707,7 +715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		918F315121E811F500BC121A /* Build configuration list for PBXNativeTarget "RolexUITests" */ = {
+		918F315121E811F500BC121A /* Build configuration list for PBXNativeTarget "LocktimeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				918F315221E811F500BC121A /* Debug */,

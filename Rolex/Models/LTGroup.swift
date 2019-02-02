@@ -9,6 +9,12 @@
 import UIKit
 import Parse
 
-class PFGroup: PFObject {
+class LTGroup: PFObject, PFSubclassing {
+    @NSManaged var GroupID: String
+    @NSManaged var GroupName: String
+    @NSManaged var pointTime: Int
     
+    class func parseClassName() -> String! {
+        return "LTGroup"
+    }
 }

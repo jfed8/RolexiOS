@@ -9,6 +9,6 @@
 import UIKit
 import Parse
 
-class CustomUser: PFUser {
+class LTUser: PFUser {
     
 }
